@@ -21,11 +21,13 @@ Make sure you have the following dependencies installed on your Linux system:
 ```bash
 sudo apt update
 sudo apt install libgtk-3-dev libpthread-stubs0-dev build-essential
-
+```
 TO COMPILE
+```bash
 gcc port_scanner.c -o port_scanner `pkg-config --cflags --libs gtk+-3.0` -lpthread
-
+```
 TO RUN
+```bash
 ./port_scanner
-
+```
 
